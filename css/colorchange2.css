@@ -1,0 +1,21 @@
+
+	body {
+	 animation: colorchange 4s; /*animation-name followed by duration in seconds*/
+	 /* you could also use milliseconds (ms) or something like 2.5s */
+		-webkit-animation: colorchange 4s; /* Chrome and Safari */
+    animation-direction: normal;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: colorchange;
+    animation-timing-function: ease;
+		}
+		
+		@keyframes colorchange
+		{
+		 0% 	{background: #13B5B3;}
+		 25%	{background: #0EBEBC;}
+		 50%	{background: #0ED2D0;}
+		 75%	{background: #0EBEBC;}
+		 100%	{background: #13B5B3;}
+		 }
+}
